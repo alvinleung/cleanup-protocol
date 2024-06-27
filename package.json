@@ -1,0 +1,11 @@
+{
+  "name": "cleanup-protocol",
+  "version": "1.0.0",
+  "description": "This protocol makes sure classes have a cleanup function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvin Leung",
+  "license": "ISC"
+}
