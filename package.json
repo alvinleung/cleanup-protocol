@@ -1,11 +1,21 @@
 {
   "name": "cleanup-protocol",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "This protocol makes sure classes have a cleanup function.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "prepare": "npm run build",
+    "publish": "npm run build && npm publish"
   },
   "author": "Alvin Leung",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.7"
+  }
 }
