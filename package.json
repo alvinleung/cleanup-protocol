@@ -1,6 +1,6 @@
 {
   "name": "cleanup-protocol",
-  "version": "1.0.01",
+  "version": "1.0.02",
   "description": "This protocol makes sure classes have a cleanup function.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
